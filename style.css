@@ -10,9 +10,9 @@ body {
 header {
     background-color: #3f5e7e;
     color: #fff;
-    padding: 10px 0; /* Ajuste l'espacement en haut et en bas */
+    padding: 10px 0; 
     text-align: center;
-    position: relative; /* Ajoute une position relative pour le positionnement absolu du lien Accueil */
+    position: relative; 
 }
 
 .banner {
@@ -114,7 +114,7 @@ footer {
 
 .rectangle img {
     width: auto;
-    height: 100%; /* Pour remplir la hauteur du rectangle */
+    height: 100%; 
     float: left;
 }
 
