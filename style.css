@@ -1,0 +1,135 @@
+body {
+    background-color: #d3e6f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #3f5e7e;
+    color: #fff;
+    padding: 10px 0; /* Ajuste l'espacement en haut et en bas */
+    text-align: center;
+    position: relative; /* Ajoute une position relative pour le positionnement absolu du lien Accueil */
+}
+
+.banner {
+    margin-bottom: 10px;
+}
+
+.banner h1 {
+    margin: 0;
+    
+}
+
+.site-description {
+    margin: 0 auto 20px;
+    max-width: 800px;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    margin: 25px;
+    position: relative;
+    width: calc(33.33% - 40px);
+    height: auto;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.city-name {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.home-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.rectangle {
+    display: block;
+    width: calc(2/3 * (100vw - 40px));
+    max-width: 600px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.rectangle img {
+    width: auto;
+    height: 100%; /* Pour remplir la hauteur du rectangle */
+    float: left;
+}
+
+.rectangle .text {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.rectangle h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.rectangle p {
+    margin-top: 0;
+}
+
+
